@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+    <h1>Calculadora de notas</h1>
+    <form>  
+            <label for="nombre">Nombre:</label>   
+            <input type="text" id="nombre" required>  
+            <label for="materia">Materia:</label>   
+            <input type="text" id="materia" required>   
+            <label >Ingrese nota 1:</label>
+            <input type="number"step="0.1" id="nota1" required>
+            <br>
+            <label>Ingrese nota 2:</label>
+            <input type="number"step="0.1" id="nota2" required>
+            <br>
+            <label>Ingrese nota 3:</label>
+            <input type="number"step="0.1" id="nota3" required>
+            <br>
+            <button type="button" onclick="calcularPromedio()">Calcular promedio</button>
+    </form>
+    <p id="resultado"></p>
+    <script src="punto4.js"></script>
+    <a href="../index.html">Volver</a>
+</body>
+</html>
