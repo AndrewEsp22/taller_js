@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Mallanna&family=Open+Sans:wght@800&display=swap');
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mallanna', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(rcs/Presentación\ Astronauta\ Azul\ Oscuro.png);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    height: 100vh;
+}
+.title{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20%;
+}
+.nav-item {
+   color: #ffffff;
+   padding: 10px;
+   margin: 5px;
+   text-decoration: none;
+   position: relative;
+   border-radius: 8px;
+   background-color: #DF0101;
+}
+.nav-item:hover{
+    font-size: 25px;
+    transition: 0.4s ease-in-out;
+}
