@@ -9,7 +9,7 @@ function calcular() {
     }else if(numA < 0 && !Number.isInteger(numA)){
         resultado.textContent = 'El número '+ numA+  ' debe ser entero positivo.';
     }else if(numB < 0 && !Number.isInteger(numB)){
-        resultado.textContent = 'El número '+ B + ' debe ser entero positivo.';
+        resultado.textContent = 'El número '+ numB + ' debe ser entero positivo.';
     }else if(numA < 0 && numB < 0){
         resultado.textContent = 'Los números '+ numA +' y '+ numB +' deben ser positivos.';
     }else if (numA < 0) {
