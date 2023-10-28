@@ -1,5 +1,5 @@
 document.getElementById("formulario").addEventListener("submit", function (event) {
-  event.preventDefault(); // Evita que el formulario recargue la página
+  event.preventDefault(); 
 
   const numero = parseInt(document.querySelector("input[name='numero']").value);
 
