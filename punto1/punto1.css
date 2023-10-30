@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Mallanna&family=Open+Sans:wght@800&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mallanna', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('rcs/fondoAs.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+.title{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20%;
+    padding: 20px;
+}
+.container{
+    background-color: transparent;
+    border: 2px solid #15e6cc ;
+    width: 360px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0, 0, 0, 5);
+    text-align: center;
+    padding-bottom: 20px;
+}
