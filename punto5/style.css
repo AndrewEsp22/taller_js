@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Mallanna&family=Open+Sans:wght@800&display=swap');
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mallanna', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('rcs/fondoAs.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+.title{
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.container{
+    background-color: transparent;
+    border: 2px solid #FF8000;
+    width: 360px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0, 0, 0, 5);
+    text-align: center;
+    padding-bottom: 20px;
+    color: #fff;
+}
+.eje{
+    position: absolute;
+    bottom: 25%;
+    right: 48%; 
+    color: #fff;
+    text-decoration: none;
+}
+input{
+    background-color: transparent;
+    border: 2px solid #FF8000;
+    color: #fff;
+    font-family: 'Mallanna', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+input:focus {
+    background-color: transparent;
+}
+.btn{
+    background-color:#FF8000 ;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}

@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ejercicio 7</title>
+    <link rel="stylesheet" href="punto7.css">
 </head>
 <body>
-    <h1>Ingrese dos numeros</h1>
-    <form id="numerosDivisibles">
+    <form id="numerosDivisibles" class="container">
+        <h1 class="title">Ingrese dos numeros</h1>
         <label for="numA">Numero 1:</label>
         <input type="number" step="any" id="numA" required>
+        <br>
         <label for="numB">Numero 2:</label>
         <input type="number" step="any" id="numB" required>
-        <button onclick="calcular()">Calcular</button>
+        <br>
+        <button onclick="calcular()" class="btn">Calcular</button>
+        <h2>Resultado:</h2>
+        <p id="result"></p>
+        <script src="punto7.js"></script>
+
     </form>
-    <h2>Resultado:</h2>
-    <p id="result"></p>
-    <script src="punto7.js"></script>
-    <a href="../index.html">Volver</a>
+       <a href="../index.html" class="eje">Volver</a>
 </body>
 </html>

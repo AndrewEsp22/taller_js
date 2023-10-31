@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Buscador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Buscador de Texto</h1>
+        <div class="input-container">
+            <label for="buscarTexto" class="label">Texto a buscar:</label>
+            <input type="text" id="buscarTexto" class="input">
+        </div>
+        <div class="input-container">
+            <label for="texto" class="label">Párrafo:</label>
+            <textarea id="texto" class="input"></textarea>
+        </div>
+        <button onclick="buscarYResaltar()" class="button">Buscar y Resaltar</button>
+        <div id="resultado" class="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+    <a href="../index.html" class="eje">Volver</a>
+</body>
+</html>

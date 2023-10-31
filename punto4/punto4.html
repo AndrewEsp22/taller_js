@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Ejercicio 4</title>
+    <link rel="stylesheet" href="punto4.css">
+
 </head>
 <body>
-    <h1>Calculadora de notas</h1>
-    <form>  
+    <form class="container">  
+        <h1 class="title">CALCULADORA DE NOTAS</h1>
             <label for="nombre">Nombre:</label>   
             <input type="text" id="nombre" required>  
-            <label for="materia">Materia:</label>   
-            <input type="text" id="materia" required>   
+            <br>
+            <label for="materia">Materia:</label>  
+            <input type="text" id="materia" required>  
+            <br>  
             <label >Ingrese nota 1:</label>
             <input type="number"step="0.1" id="nota1" required>
             <br>
@@ -20,10 +24,11 @@
             <label>Ingrese nota 3:</label>
             <input type="number"step="0.1" id="nota3" required>
             <br>
-            <button type="button" onclick="calcularPromedio()">Calcular promedio</button>
-    </form>
-    <p id="resultado"></p>
-    <script src="punto4.js"></script>
-    <a href="../index.html">Volver</a>
+            <button type="button" onclick="calcularPromedio()" class="btn">Calcular promedio</button>
+            <p id="resultado" ></p>
+            <script src="punto4.js"></script>
+        </form>
+        
+    <a href="../index.html" class="eje">Volver</a>
 </body>
 </html>

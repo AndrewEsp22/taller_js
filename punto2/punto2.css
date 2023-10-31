@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mallanna&family=Open+Sans:wght@800&display=swap');
 *{
-    margin: 0;
+    margin: 0%;
     box-sizing: border-box;
 }
 body{
@@ -17,15 +17,9 @@ body{
     min-height: 100vh;
     margin: 0 auto;
 }
-.title{
-    font-size: 40px;
-    color: white;
-    margin-bottom: 10px;
-    padding: 20px;
-}
 .container{
     background-color: transparent;
-    border: 2px solid #FFBF00 ;
+    border: 2px solid #3ADF00 ;
     width: 360px;
     margin: 0 auto;
     border-radius: 10px;
@@ -34,11 +28,7 @@ body{
     padding-bottom: 20px;
     color: #fff;
 }
-.ctn{
-    padding: 20px;
-    margin-top: -20px;
-}
-.eje {
+.eje{
     position: absolute;
     bottom: 25%;
     right: 50%; 
@@ -46,9 +36,30 @@ body{
     text-decoration: none;
 }
 .btn{
-    background-color:#FFBF00 ;
+    background-color:#3ADF00 ;
     color: #fff;
     border-radius: 5px;
     font-family: 'Mallanna', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+
 }
+#botonIdentificarTipo {
+    margin-top: 20px; 
+}
+.title{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+#valor{
+    background-color: transparent;
+    border: 2px solid #3ADF00;
+    color: #fff;
+    font-family: 'Mallanna', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+}
+
+
